@@ -1,1 +1,30 @@
+// BODY
+.headings,
+.cafe img,
+.info,
+.map {
+  margin: 0 10%;
+}
 
+.cafe img {
+  width: 80%;
+  top: 70vh;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  h3 {
+    text-transform: uppercase;
+  }
+}
+
+.map {
+  text-align: center;
+  position: relative;
+  top: 2.5vh;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
