@@ -7,6 +7,7 @@ body {
   padding: 0;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 16px;
+  height: 100vh;
 }
 
 h1 {
@@ -22,4 +23,36 @@ h2 {
 h3 {
   font-size: 1.5rem;
   font-weight: 300;
+}
+
+// FOOTER
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+  background-color: #33393f;
+  padding: 2rem;
+  ul {
+    display: flex;
+    li {
+      list-style-type: none;
+      a {
+        text-decoration: none;
+        color: #1179bf;
+        padding: 2rem;
+      }
+    }
+  }
+  p {
+    color: white;
+    text-align: center;
+  }
+  p:nth-child(1) {
+    font-weight: bold;
+  }
+  a {
+    color: #1179bf;
+  }
 }
