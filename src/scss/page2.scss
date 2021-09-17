@@ -2,6 +2,8 @@
 h1 {
   margin: 0 10%;
 }
+
+// FIRST CONTAINER
 .menu__container {
   margin: 0 10%;
   display: grid;
@@ -43,4 +45,41 @@ h1 {
 
 .menu__item6 {
   grid-area: item6;
+}
+
+// SECOND CONTAINER
+.alcohol__container {
+  margin: 0 10%;
+  display: grid;
+  //   width: 100%;
+  //   height: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 3rem;
+  grid-template-areas:
+    "item1 item1 item1 item1"
+    "item2 item3 item4 item5"
+    "item2 item3 item6 item5"
+    "item7 item8 item9 item5"
+    "item7 item8 item10 item5";
+}
+
+// .alco__item1 {
+//   grid-area: item1;
+// }
+
+.alco__item2 {
+  grid-area: item2;
+}
+
+.alco__item3 {
+  grid-area: item3;
+}
+
+.alco__item4 {
+  grid-area: item4;
+}
+
+.alco__item5 {
+  grid-area: item5;
 }
